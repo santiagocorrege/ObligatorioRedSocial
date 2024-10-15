@@ -1,0 +1,143 @@
+﻿
+@{
+    ViewData["Title"] = "MostrarMuro";
+}
+
+
+<div class="muro-container">
+    @if(ViewBag.Bloqueado == false)
+    {
+        <form method="post" action="Postear" class="form-comentar publicacion" enctype="multipart/form-data">
+            <h4>Postear</h4>
+            <div class="form-group">
+                <input type="text" id="tituloPost" name="tituloPost" placeholder="Ingrese su título..." />
+            </div>
+            <div class="form-group">
+                <textarea id="contenido" name="contenido" placeholder="Ingrese el contenido de su post..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="file">Seleccionar una imagen:</label>
+                <input type="file" id="file" name="file" />
+            </div>
+            <button type="submit" class="btn btn-primary">Publicar</button>
+            @if (TempData["Mensaje-Post"] != null)
+            {
+                <p>@TempData["Mensaje-Post"]</p>
+            }
+        </form>
+    }
+    
+
+    @for(int i = Model.Count - 1; i >= 0; i--)
+    {
+        LogicaNegocio.Post post = Model[i];
+        <div class="publicacion" id="@post.Id">
+            <div class="descripcion">
+                @if (@post.Autor.Email == ViewBag.Miembro)
+                {
+                    <p class="desc-nombre">Tu</p>
+                }
+                else
+                {
+                    <p class="desc-nombre">@post.Autor.Nombre</p>
+                }
+                <p class="desc-email">@post.Autor.Email</p>
+                <h4 class="desc-titulo">@post.Titulo</h4>
+            </div>
+            <div class="contenido">
+                <p>@post.Contenido.ToString()</p>
+            </div>
+            <div class="imagen">
+                <img src="~/img/post-img/@post.Imagen" />
+            </div>
+            <div class="publicacion-header">
+                <p class="desc-fecha">@post.FechaPublicacion - <span class="ps-6">Valor aceptacion: @post.CalcularAceptacion()</span></p>
+
+                @if (post.MiembroReaccionoMG(ViewBag.Miembro))
+                {
+                    <a href="/Miembro/ReaccionPublicacionMG/@post.Id" class="btn-reaccion"><img src="~/img/button/mg-clicked.png"/></a>
+                }
+                else
+                {
+                    <a href="/Miembro/ReaccionPublicacionMG/@post.Id" class="btn-reaccion"><img src="~/img/button/mg.png" /></a>
+                }
+                <p class="reaccion-p">@post.DevolverMeGusta()</p>
+                @if (post.MiembroReaccionoNMG(ViewBag.Miembro))
+                {
+                    <a href="/Miembro/ReaccionPublicacionNMG/@post.Id" class="btn-reaccion"><img src="~/img/button/nmg-clicked.png" /></a>
+                }
+                else
+                {
+                    <a href="/Miembro/ReaccionPublicacionNMG/@post.Id" class="btn-reaccion"><img src="~/img/button/nmg.png" /></a>
+                }
+                <p class="reaccion-p">@post.DevolverNoMeGusta()</p>
+
+            </div>
+            <div class="comentarios">
+                <h5>Comentarios</h5>
+                @foreach (LogicaNegocio.Comentario comentario in post.Comentarios)
+                {
+                    <div class="comentario">
+                        <div class="descripcion">
+                            @if (comentario.Autor.Email == ViewBag.Miembro)
+                            {
+                                <p class="desc-email"><strong>Tu</strong> - <span class="ps-6">Valor aceptacion: @comentario.CalcularAceptacion()</span></p>
+                            }
+                            else
+                            {
+                                <p class="desc-email">@comentario.Autor.Email - <span class="ps-6">Valor aceptacion: @comentario.CalcularAceptacion()</span></p>
+                            }
+
+                            <h5 class="desc-titulo-comentario">@comentario.Titulo</h5>
+                            <p class="desc-contenido-comentario">@comentario.Contenido</p>
+                        </div>
+                        <div class="publicacion-header">
+                            @if (comentario.MiembroReaccionoMG(ViewBag.Miembro))
+                            {
+                                <a href="/Miembro/ReaccionPublicacionMG/@comentario.Id" class="btn-reaccion"><img src="~/img/button/mg-clicked.png" /></a>
+                            }
+                            else
+                            {
+                                <a href="/Miembro/ReaccionPublicacionMG/@comentario.Id" class="btn-reaccion"><img src="~/img/button/mg.png" /></a>
+                            }
+                            <p class="reaccion-p">@comentario.DevolverMeGusta()</p>
+                            @if (comentario.MiembroReaccionoNMG(ViewBag.Miembro))
+                            {
+                                <a href="/Miembro/ReaccionPublicacionNMG/@comentario.Id" class="btn-reaccion"><img src="~/img/button/nmg-clicked.png" /></a>
+                            }
+                            else
+                            {
+                                <a href="/Miembro/ReaccionPublicacionNMG/@comentario.Id" class="btn-reaccion"><img src="~/img/button/nmg.png" /></a>
+                            }
+                            <p class="reaccion-p">@comentario.DevolverNoMeGusta()</p>
+                        </div>
+                    </div>
+                }
+                @if (ViewBag.Bloqueado == false)
+                {
+                    <form method="post" action="Comentar" class="form-comentar">
+                        <h5>Comentar</h5>
+                        <input type="number" value="@post.Id" name="idPost" hidden>
+                        <input type="text" name="tituloComentario" placeholder="Ingrese su titulo...">
+                        <textarea name="contenido" placeholder="Ingrese su comentario..."></textarea>
+                        <button type="submit" class="btn btn-primary">Comentar</button>
+                        @if (TempData["Mensaje-Comentario"] != null && TempData["Mensaje-Comentario-IdPost"].ToString() == post.Id.ToString())
+                        {
+                            <p>@TempData["Mensaje-Comentario"]</p>
+                        }
+                    
+                </form>
+                }
+            </div>
+        </div>
+    }
+    @if (Model == null || Model.Count == 0)
+    {
+        <h6>No existen posts</h6>
+    }
+    @if (ViewBag.Message != "")
+    {
+        <h6>@ViewBag.Message</h6>
+    }
+
+</div>

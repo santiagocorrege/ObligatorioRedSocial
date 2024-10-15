@@ -1,0 +1,54 @@
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.exe
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.deps.json
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.runtimeconfig.json
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.pdb
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.AssemblyReference.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfo.cs
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CopyComplete
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\refint\InterfazUsuario.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.pdb
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.genruntimeconfig.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\InterfazUsuario\obj\Debug\net7.0\ref\InterfazUsuario.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.exe
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.deps.json
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.runtimeconfig.json
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.AssemblyReference.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfo.cs
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CopyComplete
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\refint\InterfazUsuario.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.genruntimeconfig.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\InterfazUsuario\obj\Debug\net7.0\ref\InterfazUsuario.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.exe
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.deps.json
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.runtimeconfig.json
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\InterfazUsuario.pdb
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\bin\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.AssemblyReference.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfoInputs.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.AssemblyInfo.cs
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CoreCompileInputs.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.csproj.CopyComplete
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\refint\InterfazUsuario.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.pdb
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\InterfazUsuario.genruntimeconfig.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\InterfazUsuario\obj\Debug\net7.0\ref\InterfazUsuario.dll

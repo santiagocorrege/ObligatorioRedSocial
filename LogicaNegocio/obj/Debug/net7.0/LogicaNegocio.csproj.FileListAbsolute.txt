@@ -1,0 +1,44 @@
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\ORT\OBLIGATORIO\Programacion\ProyectoNuevo\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\maria\Downloads\Obligatorio P2 14Sep\Obligatorio\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\ORT Segundo Semestre\OBLIGATORIOS\Programacion\Obligatorio 2 P2 Final\Proyecto\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll

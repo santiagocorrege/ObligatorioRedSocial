@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "BannearPost";
+}
+
+<h1 class="display-4">Censurar Post</h1>
+
+<h5>Ingrese el id del post a censurar:</h5>
+<form method="POST">
+    <label for="id">Id:</label>
+    <input type="text" name="id" />
+    <button type="submit" class="btn btn-primary">Censurar</button>
+</form>
+
+
+<table class="table table-striped">
+    <thead>
+    <th>Id</th>
+    <th>Fecha Publicacion</th>
+    <th>Autor</th>
+    <th>Email</th>
+    <th>Titulo</th>
+    <th>Contenido</th>
+    <th>Imagen</th>
+    <th>Censurado</th>
+    </thead>
+    <tbody>
+
+        @foreach (LogicaNegocio.Post post in Model)
+        {
+            <tr>
+                <td>@post.Id</td>
+                <td>@post.FechaPublicacion</td>
+                <td>@post.Autor.Nombre</td>
+                <td>@post.Autor.Email</td>
+                <td>@post.Titulo</td>
+                <td>@post.Contenido</td>
+                <td>@post.Imagen</td>
+                <td>@post.Censurado</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (Model == null || Model.Count == 0)
+{
+    <h6>No hay posts</h6>
+}
+@if (ViewBag.Message != "")
+{
+    <h6>@ViewBag.Message</h6>
+}

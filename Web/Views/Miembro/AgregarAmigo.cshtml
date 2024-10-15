@@ -1,0 +1,41 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<h1 class="display-4">Agregar Amigo</h1>
+
+<h5>Seleccione agregar al Miembro que desea agregar como amigo:</h5>
+
+
+    @if (ViewBag.MiembrosNoAmigos != null && ViewBag.MiembrosNoAmigos.Count != 0)
+    {
+    <table class="table table-striped">
+        <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Email</th>
+        <th>Agregar</th>
+        </thead>
+        <tbody>
+        @foreach (LogicaNegocio.Miembro miembro in ViewBag.MiembrosNoAmigos)
+        {
+            <tr>
+                <td>@miembro.Nombre</td>
+                <td>@miembro.Apellido</td>
+                <td>@miembro.Email</td>
+                <td><a class="btn btn-primary" href="/Miembro/EnviarSolicitud/@miembro.Email">Agregar</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    } 
+    else
+    {
+    <p>No existen miembros por agregar</p>
+    }
+
+@if (TempData["Mensaje-EnviarSolicitud"] != "")
+{
+    <h6>@TempData["Mensaje-EnviarSolicitud"]</h6>
+}

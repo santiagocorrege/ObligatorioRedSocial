@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "BannearPost";
+}
+
+<h1 class="display-4">Filtrar Posts</h1>
+
+
+<form method="POST" class="form-comentar publicacion">
+    <h5>Ingrese el criterio de filtrado:</h5>
+    <label for="texto">Texto de la publicacion:</label>
+    <input type="text" id="texto" name="textoIncluido"/>
+    <label for="numero">Valor de aceptacion minimo:</label>
+    <input type="number" name="valorAceptacion"/>
+    <button type="submit" class="btn btn-primary">Censurar</button>
+    <p>@ViewBag.Mensaje</p>
+</form>
+
+@if (Model == null || Model.Count == 0)
+{
+    <h6>No hay resultados</h6>
+} else
+{
+    <table class="table table-striped">
+        <thead>
+        <th>Titulo</th>
+        <th>Contenido</th>
+        <th>Tipo</th>
+        <th>Valor Aceptacion</th>
+        </thead>
+        <tbody>
+
+            @foreach (LogicaNegocio.Publicacion publicacion in Model)
+            {
+                <tr>
+                    <td>@publicacion.Titulo</td>
+                    <td>@publicacion.Contenido</td>
+                    <td>@publicacion.GetType()</td>
+                    <td>@publicacion.CalcularAceptacion()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

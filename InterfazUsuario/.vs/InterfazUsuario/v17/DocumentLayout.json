@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\InterfazUsuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0F400-F4F7-4AC7-BA81-EBE5B3C89892}|..\\Web\\Web.csproj|d:\\dropbox\\dropbox\\ort segundo semestre\\obligatorios\\programacion\\obligatorio 2 p2 final\\proyecto\\web\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0F400-F4F7-4AC7-BA81-EBE5B3C89892}|..\\Web\\Web.csproj|d:\\dropbox\\dropbox\\ort segundo semestre\\obligatorios\\programacion\\obligatorio 2 p2 final\\proyecto\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0F400-F4F7-4AC7-BA81-EBE5B3C89892}|..\\Web\\Web.csproj|d:\\dropbox\\dropbox\\ort segundo semestre\\obligatorios\\programacion\\obligatorio 2 p2 final\\proyecto\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8842DE6A-E905-41EA-9887-B5C22806699B}|..\\LogicaNegocio\\LogicaNegocio.csproj|d:\\dropbox\\dropbox\\ort segundo semestre\\obligatorios\\programacion\\obligatorio 2 p2 final\\proyecto\\logicanegocio\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8842DE6A-E905-41EA-9887-B5C22806699B}|..\\LogicaNegocio\\LogicaNegocio.csproj|d:\\dropbox\\dropbox\\ort segundo semestre\\obligatorios\\programacion\\obligatorio 2 p2 final\\proyecto\\logicanegocio\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T23:19:07.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "..\\Web\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "..\\Web\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T22:51:51.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T22:51:21.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\LogicaNegocio\\Post.cs",
+              "RelativeDocumentMoniker": "..\\LogicaNegocio\\Post.cs",
+              "ToolTip": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\LogicaNegocio\\Post.cs",
+              "RelativeToolTip": "..\\LogicaNegocio\\Post.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T00:37:26.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Publicacion.cs",
+              "DocumentMoniker": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\LogicaNegocio\\Publicacion.cs",
+              "RelativeDocumentMoniker": "..\\LogicaNegocio\\Publicacion.cs",
+              "ToolTip": "D:\\DropBox\\Dropbox\\ORT Segundo Semestre\\OBLIGATORIOS\\Programacion\\Obligatorio 2 P2 Final\\Proyecto\\LogicaNegocio\\Publicacion.cs",
+              "RelativeToolTip": "..\\LogicaNegocio\\Publicacion.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T00:37:14.787Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

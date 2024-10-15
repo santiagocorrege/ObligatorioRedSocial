@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "BloquearMiembro";
+}
+
+<h1 class="display-4">BloquearMiembro</h1>
+
+<h5>Ingrese el email del usuario a bloquear:</h5>
+<form method="POST">
+    <label for="Email">Email:</label>
+    <input type="text" name="email" />
+    <button type="submit" class="btn btn-primary">Bloquear</button>
+</form>
+
+
+<table class="table table-striped">
+    <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Email</th>
+        <th>Fecha Nacimiento</th>
+        <th>Bloqueado</th>
+    </thead>
+    <tbody>
+
+        @foreach (LogicaNegocio.Miembro miembro in Model)
+        {
+            <tr>
+                <td>@miembro.Nombre</td>
+                <td>@miembro.Apellido</td>
+                <td>@miembro.Email</td>
+                <td>@miembro.FechaNacimiento</td>
+                <td>@miembro.Bloqueado</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if(Model == null || Model.Count == 0)
+{
+    <h6>No hay miembros</h6>
+}
+@if (ViewBag.Message != "")
+{
+    <h6>@ViewBag.Message</h6>
+}

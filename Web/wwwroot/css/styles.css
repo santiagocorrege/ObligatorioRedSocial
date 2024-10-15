@@ -1,0 +1,272 @@
+﻿/*GENERAL*/
+body {
+    width:100%;
+    background-color: rgb(235, 235, 235);
+}
+/* DROPDOWN */
+
+.nav {
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    right: 100px;
+    display: inline-block;
+}
+
+.solicitudes {
+    position: absolute;
+    right: 180px;
+    display: inline-block;
+}
+
+.solicitud {
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(146, 146, 146);
+}
+
+.dropdown-btn {
+    background-color: inherit;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    color: white;
+    display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+    position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+    padding: 2px 5px; /* Add some padding so it looks nice */
+}
+
+/* Make the badge float in the top right corner of the button */
+.button__badge {
+    background-color: #fa3e3e;
+    border-radius: 2px;
+    color: white;
+    padding: 1px 3px;
+    font-size: 10px;
+    position: absolute; /* Position the badge within the relatively positioned button */
+    top: 0;
+    right: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: #333;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown img {
+    width: 32px;
+    height: 32px;
+}
+
+.dropdown a:hover{
+    background-color: darkgrey;
+}
+/* VER MURO */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+.muro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.publicacion {
+    background-color: white;
+    border: 5px single grey;
+    border-radius: 5%;
+    margin: 20px auto;
+    padding: 20px 40px 80px 40px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5,auto);
+    flex-wrap:wrap;
+}
+
+
+/* DESCRIPCION */
+.descripcion {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.desc-nombre {
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 20px;
+    font-weight: 600;
+    padding:0;
+    margin:10px 0 0 0;
+}
+
+.desc-email {
+    display: block;
+    margin:5px 0px;
+}
+
+.desc-email, .desc-fecha {
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+}
+
+/* DESCRIPCION */
+.desc-titulo {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.contenido {
+    display: flex;
+    word-wrap: break-word;
+    white-space: normal;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.contenido p {
+    width:520px;
+}
+
+.imagen {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.publicacion-header {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin: 5px 0;
+}
+
+    .publicacion-header span {
+        color: black;
+    }
+
+    .publicacion-header img {
+        width: 16px;
+        margin-bottom: 10px;
+    }
+
+.btn-reaccion {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.btn-reaccion:hover{
+    color:blue;
+}
+
+.reaccion-p {
+    display: inline-block;
+    width: 12px;
+    padding: 0 0 2px 2px;
+    color: rgb(60,60,160);
+}
+
+.comentarios {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+
+/*COMENTARIOS*/
+.comentarios > h5 {
+    font-weight: 600;
+    border-bottom: 3px solid grey;
+    margin-bottom: 20px;
+}
+
+.comentario {
+    border-bottom: 1px solid grey;
+}
+.desc-titulo-comentario {
+    text-align:left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.desc-contenido-comentario {
+
+}
+
+.form-comentar h5 {
+    font-size: 16px;
+    margin: 15px 0 5px 0;
+    font-weight: 600;
+}
+
+.form-comentar textarea, .form-comentar input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+.form-comentar textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-comentar input[type=text] {
+}
+
+/*LOGIN*/
+
+.login {
+    margin-top: 100px;
+}
+
+.login * {
+    margin-top: 30px;
+}
+
+.usuario-log {
+    font-weight: 800;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    padding-left: 15px;
+}

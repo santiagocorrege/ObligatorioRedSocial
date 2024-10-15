@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            
+            <div class="container-fluid justify-content-center align-items-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (Context.Session.GetString("Rol") != null && Context.Session.GetString("Rol") == "ADMINISTRADOR")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Administrador" asp-action="BloquearMiembro">BloquearMiembro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Administrador" asp-action="BannearPost">Censurar Post</a>
+                            </li>
+                        }
+                        @if (Context.Session.GetString("Rol") != null && Context.Session.GetString("Rol") == "MIEMBRO")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Miembro" asp-action="MostrarMuro">Muro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Miembro" asp-action="AgregarAmigo">Agregar Amigo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Miembro" asp-action="FiltrarPublicaciones">Filtrar Publicaciones</a>
+                            </li>
+                            @if (Context.Session.GetString("Email") != null)
+                            {
+                                <li class="nav-item">
+                                    <p class="nav-link text-dark usuario-log">Usuario: @Context.Session.GetString("Email")</p>
+                                </li>
+                            }
+                            <li class="dropdown solicitudes">
+                                <button class="dropdown-btn button"><img src="~/img/button/amigos.png" /></button>
+                                    <i class="fa fa-globe"></i>
+                                <span class="button__badge">
+                                    @if (ViewBag.Solicitudes != null)
+                                    {
+                                        @ViewBag.Solicitudes.Count
+                                    }
+                                </span>
+                                <div class="dropdown-content nav-link">
+                                    @if(ViewBag.Solicitudes != null && ViewBag.Solicitudes.Count != 0)
+                                    {
+                                        foreach(LogicaNegocio.Solicitud solicitud in ViewBag.Solicitudes)
+                                        {
+                                            <div class="solicitud">
+                                                <p>@solicitud.Solicitante.Nombre</p>
+                                                <p>@solicitud.Solicitante.Email</p>
+                                                <a href="/Miembro/AceptarSolicitud/@solicitud.Id">Aceptar</a>
+                                                <a href="/Miembro/RechazarSolicitud/@solicitud.Id">Rechazar</a>
+                                            </div>
+                                        }
+                                    } else
+                                    {
+                                        <div class="solicitud">
+                                            <p>No hay solicitudes pendientes</p>
+                                        </div>
+                                    }
+                                </div>
+                            </li>
+                        }
+                        @if (Context.Session.GetString("Rol") == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Registrarse">Registrarse</a>
+                            </li>
+                        }
+                        @if (Context.Session.GetString("Rol") != null)
+                        {
+                            <li class="dropdown drop-usuario">
+                                <button class="dropdown-btn button"><img src="~/img/button/usuario.png" /></button>
+                                <div class="dropdown-content">
+                                    <a  asp-area="" asp-controller="Usuario" asp-action="Logout">Logout</a>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if (TempData["Mensaje-Solicitud"] != null)
+            {
+                <div class="alert alert-primary" role="alert">
+                    @TempData["Mensaje-Solicitud"];
+                </div>
+            }
+            @if (TempData["Mensaje-Registrarse"] != null)
+            {
+                <div class="alert alert-primary" role="alert">
+                    @TempData["Mensaje-Registrarse"];
+                </div>
+            }
+            @if(TempData["Mensaje-Reaccion"] != null){
+                <div class="alert alert-primary" role="alert">
+                @TempData["Mensaje-Reaccion"];
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

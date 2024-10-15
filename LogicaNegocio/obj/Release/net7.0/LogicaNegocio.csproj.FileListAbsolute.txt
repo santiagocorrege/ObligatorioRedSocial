@@ -1,0 +1,11 @@
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Release\net7.0\LogicaNegocio.deps.json
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Release\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\bin\Release\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.AssemblyInfo.cs
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\refint\LogicaNegocio.dll
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\LogicaNegocio.pdb
+D:\DropBox\Dropbox\OBLIGATORIO\Programacion\Proyecto\LogicaNegocio\obj\Release\net7.0\ref\LogicaNegocio.dll

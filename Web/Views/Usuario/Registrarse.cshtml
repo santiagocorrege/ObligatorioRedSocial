@@ -1,0 +1,28 @@
+﻿@model LogicaNegocio.Miembro
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<form method="post" class="form-comentar publicacion" enctype="multipart/form-data">
+    <h4>Registrarse</h4>
+    <div class="form-group">
+        <input type="text" name="Nombre" placeholder="Ingrese su título..." value="@Model.Nombre" />
+    </div>
+    <div class="form-group">
+        <input type="text" name="Apellido" placeholder="Ingrese su apellido..." value="@Model.Apellido" />
+    </div>
+    <div class="form-group">
+        <input type="date" name="FechaNacimiento" placeholder="Ingrese su fecha de nacimiento..." value="@Model.FechaNacimiento" />
+    </div>
+    <div class="form-group">
+        <input type="text" name="Email" placeholder="Ingrese su Email..." value="@Model.Email" />
+    </div>
+    <div class="form-group">
+        <input type="password" name="Password" placeholder="Ingrese su Password..." />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Publicar</button>
+    @if (ViewBag.Mensaje != null)
+    {
+        <p>@ViewBag.Mensaje</p>
+    }
+</form>
